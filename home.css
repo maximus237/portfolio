@@ -1,0 +1,53 @@
+html {
+    background-image: url(img/background_image.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: #FFFFFF;
+    font-family: "Ubuntu", Helvetica, Arial, sans-serif!important;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: darkred;
+}
+
+.navbar {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.brand-logo b span {
+    color: #5383d3;
+}
+
+.nav a {
+    color: #FFFFFF;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
