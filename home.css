@@ -50,6 +50,7 @@ h6,
 
 .jumbotron {
     background-color: transparent;
+    padding-top: 0px;
 }
 
 
@@ -103,5 +104,5 @@ h6,
 }
 
 .carousel-caption .btn {
-    margin-top: 10px;
+    margin-top: 1px;
 }
