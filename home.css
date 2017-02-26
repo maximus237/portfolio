@@ -91,8 +91,8 @@ h6,
     background-color: transparent;
     position: static;
     max-width: 550px;
-    padding: 0px 50px 0px 0px;
-    margin: 0px 0px 0px 300px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 290px 0px 300px;
 }
 
 .carousel-caption h1,
@@ -105,4 +105,13 @@ h6,
 
 .carousel-caption .btn {
     margin-top: 1px;
+}
+
+.btn-danger,
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:visited,
+.btn-danger:focus {
+    background-color: darkred;
+    border-color: darkred;
 }
