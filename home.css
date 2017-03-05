@@ -1,117 +1,117 @@
-html {
-    background-image: url(img/background_image.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-body {
-    background-color: rgba(0, 0, 0, 0.8);
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-    color: #FFFFFF;
-    font-family: "Ubuntu", Helvetica, Arial, sans-serif!important;
-}
-
-.nav>li>a:focus,
-.nav>li>a:hover {
-    text-decoration: none;
-    background-color: darkred;
-}
-
-.navbar {
-    color: #FFFFFF;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.brand-logo b span {
-    color: #5383d3;
-}
-
-.nav a {
-    color: #FFFFFF;
-}
-
-.jumbotron {
-    background-color: transparent;
-    padding-top: 0px;
-}
-
-
-/* Carousel base class */
-
-.carousel {
-    margin-bottom: 0px;
-}
-
-.carousel .container {
-    position: relative;
-    z-index: 9;
-}
-
-.carousel-control {
-    height: 80px;
-    margin-top: 0;
-    font-size: 120px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
-    background-color: transparent;
-    border: 0;
-    z-index: 10;
-}
-
-.carousel .item {
-    height: 300px;
-}
-
-.carousel img {
-    position: absolute;
-    top: -100px;
-    left: 0;
-    min-width: 100%;
-    height: 300px;
-}
-
-.carousel-caption {
-    background-color: transparent;
-    position: static;
-    max-width: 550px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 290px 0px 300px;
-}
-
-.carousel-caption h1,
-.carousel-caption .lead {
-    margin-right: 0;
-    line-height: 1.25;
-    color: #fff;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
-}
-
-.carousel-caption .btn {
-    margin-top: 1px;
-}
-
-.btn-danger,
-.btn-danger:hover,
-.btn-danger:active,
-.btn-danger:visited,
-.btn-danger:focus {
-    background-color: darkred;
-    border-color: darkred;
-}
+                html {
+                    background-image: url(img/background_image.jpg);
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                }
+                
+                body {
+                    background: none;
+                    font-size: 16px;
+                    line-height: 1.5;
+                }
+                
+                body,
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6,
+                .h1,
+                .h2,
+                .h3,
+                .h4,
+                .h5,
+                .h6 {
+                    color: #FFFFFF;
+                    font-family: "Ubuntu", Helvetica, Arial, sans-serif!important;
+                }
+                
+                .nav>li>a:focus,
+                .nav>li>a:hover {
+                    text-decoration: none;
+                    background-color: darkred;
+                }
+                
+                .navbar {
+                    color: #FFFFFF;
+                    background-color: rgba(0, 0, 0, 0.8);
+                }
+                
+                .brand-logo b span {
+                    color: #5383d3;
+                }
+                
+                .nav a {
+                    color: #FFFFFF;
+                }
+                
+                .jumbotron {
+                    background-color: rgba(0, 0, 0, 0.8);
+                }
+                
+                .carousel .container {
+                    position: relative;
+                    z-index: 9;
+                }
+                
+                .carousel-control {
+                    height: 80px;
+                    margin-top: 0;
+                    font-size: 120px;
+                    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+                    background-color: transparent;
+                    border: 0;
+                    z-index: 10;
+                }
+                
+                .carousel .item {
+                    height: 300px;
+                }
+                
+                .carousel img {
+                    position: absolute;
+                    top: -100px;
+                    left: 0;
+                    min-width: 100%;
+                    height: 300px;
+                }
+                
+                .carousel-caption {
+                    background-color: transparent;
+                    position: static;
+                    padding: 0px 0px 0px 0px;
+                }
+                
+                .carousel-caption h1,
+                .carousel-caption .lead {
+                    margin-right: 0;
+                    line-height: 1.25;
+                    color: #fff;
+                    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+                }
+                
+                .carousel-caption .btn {
+                    margin-top: 1px;
+                }
+                
+                .btn-danger,
+                .btn-danger:hover,
+                .btn-danger:active,
+                .btn-danger:visited,
+                .btn-danger:focus {
+                    background-color: darkred;
+                    border-color: darkred;
+                }
+                
+                .footer {
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    padding: 8.5rem;
+                    background-color: transparent;
+                    text-align: center;
+                }
