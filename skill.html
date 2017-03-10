@@ -1,0 +1,113 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>SKILLS</title>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="skill.css">
+
+</head>
+
+<body>
+    <nav class="navbar   navbar-static-top">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse " id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="active">
+                            <h3 class="brand" href="#">
+                                <span style="color: darkred"><b>Willy</b></span> <b>Wouapi</b>
+                            </h3>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SKILLS</a></li>
+                        <li><a href="#">WORK&PLAY</a></li>
+                        <li><a href="#">PRODUCTS</a></li>
+                        <li>
+                            <a data-toggle="modal" href="#contact" data-original-title>
+                        CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid-->
+        </div>
+    </nav>
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="panel-title" id="contactLabel"><span class="glyphicon glyphicon-info-sign"></span> Any questions? Feel free to contact us.</h4>
+                </div>
+                <form action="#" method="post" accept-charset="utf-8">
+                    <div class="modal-body" style="padding: 5px;">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                                <input class="form-control" name="firstname" placeholder="Firstname" type="text" required autofocus />
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                                <input class="form-control" name="lastname" placeholder="Lastname" type="text" required />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                                <input class="form-control" name="email" placeholder="E-mail" type="text" required />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                                <input class="form-control" name="subject" placeholder="Subject" type="text" required />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <textarea style="resize:vertical;" class="form-control" placeholder="Message..." rows="6" name="comment" required></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="panel-footer" style="margin-bottom:-14px;">
+                    <input type="submit" class="btn btn-success" value="Send" />
+                    <!--<span class="glyphicon glyphicon-ok"></span>-->
+                    <input type="reset" class="btn btn-danger" value="Clear" />
+                    <!--<span class="glyphicon glyphicon-remove"></span>-->
+                    <button style="float: right;" type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
